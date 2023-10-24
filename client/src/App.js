@@ -4,6 +4,7 @@ import GlobalStyles from "./GlobalStyles";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Blog from "./components/Blog";
+import Events from "./components/Events";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/blog" element={<Blog/>}/>
+        <Route path="/events" element={<Events/>}/>
       </Routes>
     </Router>
   );

@@ -27,11 +27,12 @@ cursor: pointer;
 const NavBar = () => {
   return (
     <Container>
-      <NavText>Events</NavText>
+      <NavText><NavLink to="/events">Events</NavLink></NavText>
       <NavText><NavLink to="/about">About</NavLink></NavText>
       <NavTitle><NavLink to="/">La POUbeLLE MaGNiFiQUE</NavLink></NavTitle>
-      <NavText>Products</NavText>
       <NavText><NavLink to="/blog">Blog</NavLink></NavText>
+      <NavText>Products</NavText>
+      
     </Container>
   );
 };
