@@ -14,11 +14,12 @@ width: calc(100% - 2em); /* Adjust width to account for padding */
 const NavText = styled.div`
 font-family: "Lilita One", sans-serif;
 font-size: 1.5rem;
+color: white;
 `
 const NavTitle = styled.div`
 font-family: "Lilita One", sans-serif;
   font-size: 2rem;
-  color: #b93be2;
+  color: #50c878;
 `
 const NavLink = styled(Link)`
 all: unset;
